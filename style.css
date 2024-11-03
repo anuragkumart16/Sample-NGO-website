@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    background-color: #edebeb;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 60px;
+}
+
+.logo {
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu>* {
+    padding: 0px 20px;
+}
+
+.menu>li>a {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #0D0907;
+}
+
+.menu>li>a:hover {
+    color: #EB4619;
+    border-bottom: #EB4619 2px solid;
+}
+
+.hero {
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top right;
+    filter: brightness(0.5);
+}
+
+.tagline {
+    width: 750px;
+    color: #ffffff;
+    word-wrap: break-word;
+    white-space: normal;
+    top: 19vh;
+    left: 10vw;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow:  3px -1px 0 black,  /* Top left shadow */
+    1px -1px 0 black,   /* Top right shadow */
+    -1px 1px 0 black,   /* Bottom left shadow */
+    1px 1px 0 black;
+}
+.btn-holder{
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+}
+.call-to-action{
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+.btn-holder :first-child{
+    background-color: #EB4619;
+    margin-right: 10px;
+}
+
+.btn-holder :last-child{
+    border: 1px solid black;
+    color: black;
+}
+span{
+    color: #EB4619;
+}
+
+.section{
+    padding: 30px 30px;
+    background-color: white;
+    margin: 20px 20px;
+    /* border: 1px solid #4D4D4D; */
+    border-radius: 8px;
+    box-sizing: 1px 1px 2px 0px #4D4D4D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.project-holder >div>*{
+    margin: 5px;
+}
+.project-holder >div>img{
+    height: 40vh;
+    width: 40vh;
+}
+.card-img{
+    height: 30vh;
+    width: 30vh;
+    border-radius: 8px;
+}
+.card-div{
+    width: 1000px;
+}
+
+.project-holder{
+    display: flex;
+    justify-content: space-around;
+}
+.project-holder >*{
+    flex-direction: column;
+}
+/* footer */
+footer{
+    margin-top: 50px;
+    background-color: #131313;
+    color: white;
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer *{
+    margin: 7px 0px;
+}
+
+footer > *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.social-handle{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 25vw;
+    border-radius: 8px;
+}
+.social-handle > *{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
