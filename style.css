@@ -146,6 +146,7 @@ span {
 .project-holder {
     display: flex;
     justify-content: space-around;
+    overflow: auto;
 }
 
 .project-holder>* {
@@ -190,7 +191,9 @@ footer>* {
     width: 30px;
     cursor: pointer;
 }
-
+#close-btn{
+    display: none;
+}
 
 
 /* making the website mobile responsive */
