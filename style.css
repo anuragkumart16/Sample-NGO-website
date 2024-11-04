@@ -172,3 +172,84 @@ footer > *{
     width: 30px;
     cursor: pointer;
 }
+
+
+/* making the website mobile responsive */
+
+@media (max-width: 600px) and (orientation: portrait) {
+    
+    .social-handle{
+        width: 60vw;
+    }
+    .address{
+        width: 60vw ;
+        word-wrap: break-word;
+        text-align: center;
+        line-height: 1.5;
+        margin-top: 20px;
+    }
+    .footer-tagline{
+        width: 80vw;
+        text-align: center;
+    }
+    .project-holder{
+        overflow: auto;
+    }
+
+    #about{
+        /* height: 100v */
+        overflow: hidden;
+        flex-direction: column-reverse;
+
+    }
+    .card-div{
+        width: auto;
+    }
+    .card-img{
+        width: 80vw;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .tagline {
+        width: 85vw;
+        color: #ffffff;
+        word-wrap: break-word;
+        white-space: normal;
+        top: 6vh;
+        left: 8vw;
+        position: absolute;
+        font-size: 30px;
+        font-weight: 900;
+        text-shadow:  3px -1px 0 black,  /* Top left shadow */
+        1px -1px 0 black,   /* Top right shadow */
+        -1px 1px 0 black,   /* Bottom left shadow */
+        1px 1px 0 black;
+    }
+    .btn-holder{
+        left: 8vw;
+        top: 25vh;
+    }
+    .hero-image{
+        width: 100vw;
+        height: auto;
+    }
+    .call-to-action{
+        padding: 14px 30px;
+    }
+    .hero{
+        margin-bottom: 0px;
+        width: fit-content;
+        height: fit-content;
+    }
+    .logo{
+        height: 50px;
+    }
+    .menu{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .menu>li {
+        margin-bottom: 10px;
+    }
+  }
